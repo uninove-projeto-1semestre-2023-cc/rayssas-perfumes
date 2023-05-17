@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 15px;
+}
+
+header,
+nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+}
+
+nav img {
+    width: 30px;
+    height: 30px;
+}
+
+li {
+    list-style: none;
+}
